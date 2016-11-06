@@ -93,4 +93,4 @@ $ docker exec -it <container_id> pm2 install pm2-auto-pull
 
 ## License
 
-MIT
+MIT X11
