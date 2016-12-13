@@ -1,4 +1,4 @@
-apps:
+apaaaaps:
   - script   : api.js
     instances: 4
   - script   : worker.js
