@@ -25,7 +25,7 @@ function ispec {
 
 docker pull keymetrics/pm2-docker-alpine
 
-docker run -d -p 80:3000 -v `pwd`/example_app:/app -e "APP=process.yml" keymetrics/pm2-docker-alpine
+docker run -d -p 80:3000 -v `pwd`/app:/app -e "APP=process.yml" keymetrics/pm2-docker-alpine
 
 sleep 2
 
