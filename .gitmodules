@@ -1,0 +1,3 @@
+[submodule "app"]
+	path = app
+	url = git@git.concisesoftware.com:nodejs/hello-ci.git
