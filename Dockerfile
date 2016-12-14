@@ -1,10 +1,6 @@
 FROM ubuntu_pm2:latest
 MAINTAINER Krzysztof Gawryś
 
-RUN apt-get -y update
-RUN apt-get -y install nodejs npm
-RUN npm install pm2 -g
-
 VOLUME ["/app"]
 
 # Expose ports
