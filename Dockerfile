@@ -1,5 +1,5 @@
-FROM ubuntu:latest
-MAINTAINER Keymetrics <contact@keymetrics.io>
+FROM ubuntu_pm2:latest
+MAINTAINER Krzysztof Gawryś
 
 RUN apt-get -y update
 RUN apt-get -y install nodejs npm
